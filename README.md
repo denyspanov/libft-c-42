@@ -5,6 +5,7 @@ My implementation of some of the Standard C Library functions including some add
 * [What is libft?](#what-is-libft)
 * [What's in it?](#whats-in-it)
 * [How does it work?](#how-does-it-work)
+
 ### What is libft?
 Libft is an individual project at [UNIT Factory][2] that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
 
