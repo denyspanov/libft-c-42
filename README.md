@@ -15,9 +15,9 @@ Disclaimer: *Reinventing the wheel is bad, UNIT Factory makes us do this just so
 
 There are 4 sections:
 
-1.  **Libc Functions:** Some of the standard C functions
-2.  **Additional functions:** Functions will be useful for later projects
-3.  **Bonus Functions:** Functions will be useful for linked list manipulation
+1.  **Libc Functions:** Some of the standard C functions.
+2.  **Additional functions:** Functions will be useful for later projects.
+3.  **Bonus Functions:** Functions will be useful for linked list manipulation.
 4.  **Personal Functions:** Functions I believe will be useful later.
 
 Libc functions | Additional functions | Bonus Functions | Personal Functions
@@ -56,7 +56,7 @@ tolower		|
 
 The goal is to create a library called libft.a from the source files so I can later use that library from other projects at UNIT.
 
-To create that library, after downloading/cloning this project, **cd** into the project, copy all the files from the sub folders to the root directory and finally, call make:
+To create that library, after downloading/cloning this project, **cd** into the project, call make:
 
 	git clone https://github.com/denyspanov/libft-c-42
 	cd libft-c-42
