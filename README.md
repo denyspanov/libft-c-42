@@ -5,14 +5,8 @@ My implementation of some of the Standard C Library functions including some add
 * [What is libft?](#what-is-libft)
 * [What's in it?](#whats-in-it)
 * [How does it work?](#how-does-it-work)
-* [How do I use the library?](#how-do-i-use-the-library)
-* [How do I test it? How do I test my own implementations?](#how-do-i-test-it-how-do-i-test-my-own-implementations)
-	1. [To test the code in this repo](#1-to-test-the-code-in-this-repo)
-	2. [To test your own code](#2-to-test-your-own-code)
-* [Example usage](#example-usage)
-
 ### What is libft?
-[Libft][1] is an individual project at [UNIT Factory][2] that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
+Libft is an individual project at [UNIT Factory][2] that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
 
 Disclaimer: *Reinventing the wheel is bad, UNIT Factory makes us do this just so we can have a deeper understanding of data structures and basic algorithms. At UNIT Factory we're not allowed to use some standard libraries on our projects, so we have to keep growing this library with our own functions as we go farther in the program.*
 
