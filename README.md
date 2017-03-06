@@ -59,7 +59,7 @@ The goal is to create a library called libft.a from the source files so I can la
 To create that library, after downloading/cloning this project, **cd** into the project, copy all the files from the sub folders to the root directory and finally, call make:
 
 	git clone https://github.com/denyspanov/libft-c-42
-	cd libft
+	cd libft-c-42
 	make
 
 You should see a *libft.a* file and some object files (.o).
