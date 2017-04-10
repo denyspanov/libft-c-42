@@ -6,7 +6,7 @@
 /*   By: dpanov <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/22 14:28:23 by dpanov            #+#    #+#             */
-/*   Updated: 2016/11/22 14:33:29 by dpanov           ###   ########.fr       */
+/*   Updated: 2017/03/24 15:22:22 by dpanov           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,15 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
+# define BUFF_SIZE 100
 
+typedef	struct		s_node
+{
+	char			*stock;
+	int				fd;
+	struct s_node	*next;
+}					t_node;
+int					get_next_line(int const fd, char **line);
 typedef struct		s_list
 {
 	void			*content;

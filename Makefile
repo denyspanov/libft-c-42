@@ -6,7 +6,7 @@
 #    By: dpanov <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/27 11:45:31 by dpanov            #+#    #+#              #
-#    Updated: 2016/12/07 14:38:04 by dpanov           ###   ########.fr        #
+#    Updated: 2017/03/24 15:02:41 by dpanov           ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -14,6 +14,7 @@ NAME = libft.a
 
 SRC =   ft_atoi.c \
         ft_bzero.c \
+	ft_get_next_line.c \
         ft_itoa.c \
         ft_memalloc.c \
         ft_memccpy.c \
